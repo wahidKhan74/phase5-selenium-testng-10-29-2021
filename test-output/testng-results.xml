@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="EcomWebapp Testsuite" duration-ms="37147" started-at="2021-10-29T12:24:00 UTC" finished-at="2021-10-29T12:24:37 UTC">
+    <groups>
+      <group name="ChromeOnly">
+        <method signature="BrowserSpecificGroupTest.lauchChromeTest()[pri:0, instance:com.webapp.test.group.BrowserSpecificGroupTest@64485a47]" name="lauchChromeTest" class="com.webapp.test.group.BrowserSpecificGroupTest"/>
+        <method signature="BrowserSpecificGroupTest.testAmazonHomepage()[pri:0, instance:com.webapp.test.group.BrowserSpecificGroupTest@64485a47]" name="testAmazonHomepage" class="com.webapp.test.group.BrowserSpecificGroupTest"/>
+        <method signature="BrowserSpecificGroupTest.testHompageSource()[pri:1, instance:com.webapp.test.group.BrowserSpecificGroupTest@64485a47]" name="testHompageSource" class="com.webapp.test.group.BrowserSpecificGroupTest"/>
+        <method signature="BrowserSpecificGroupTest.testSearch1()[pri:2, instance:com.webapp.test.group.BrowserSpecificGroupTest@64485a47]" name="testSearch1" class="com.webapp.test.group.BrowserSpecificGroupTest"/>
+      </group> <!-- ChromeOnly -->
+      <group name="FirefoxOnly">
+        <method signature="BrowserSpecificGroupTest.lauchFireFoxTest()[pri:0, instance:com.webapp.test.group.BrowserSpecificGroupTest@64485a47]" name="lauchFireFoxTest" class="com.webapp.test.group.BrowserSpecificGroupTest"/>
+        <method signature="BrowserSpecificGroupTest.testFacebookHomePage()[pri:0, instance:com.webapp.test.group.BrowserSpecificGroupTest@64485a47]" name="testFacebookHomePage" class="com.webapp.test.group.BrowserSpecificGroupTest"/>
+        <method signature="BrowserSpecificGroupTest.testFacebookloginTest()[pri:1, instance:com.webapp.test.group.BrowserSpecificGroupTest@64485a47]" name="testFacebookloginTest" class="com.webapp.test.group.BrowserSpecificGroupTest"/>
+      </group> <!-- FirefoxOnly -->
+    </groups>
+    <test name="Amazon Test" duration-ms="17685" started-at="2021-10-29T12:24:00 UTC" finished-at="2021-10-29T12:24:18 UTC">
+      <class name="com.webapp.test.amazon.AmazonSearchTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.webapp.test.amazon.AmazonSearchTest@74ad1f1f]" name="beforeMethod" is-config="true" duration-ms="2446" started-at="2021-10-29T12:24:08 UTC" finished-at="2021-10-29T12:24:10 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearch1()[pri:0, instance:com.webapp.test.amazon.AmazonSearchTest@74ad1f1f]" name="testSearch1" duration-ms="2718" started-at="2021-10-29T12:24:10 UTC" finished-at="2021-10-29T12:24:13 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.webapp.test.amazon.AmazonSearchTest@74ad1f1f]" name="afterMethod" is-config="true" duration-ms="125" started-at="2021-10-29T12:24:13 UTC" finished-at="2021-10-29T12:24:13 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.webapp.test.amazon.AmazonSearchTest@74ad1f1f]" name="beforeMethod" is-config="true" duration-ms="2539" started-at="2021-10-29T12:24:13 UTC" finished-at="2021-10-29T12:24:15 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearch2()[pri:0, instance:com.webapp.test.amazon.AmazonSearchTest@74ad1f1f]" name="testSearch2" duration-ms="2288" started-at="2021-10-29T12:24:15 UTC" finished-at="2021-10-29T12:24:18 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.webapp.test.amazon.AmazonSearchTest@74ad1f1f]" name="afterMethod" is-config="true" duration-ms="112" started-at="2021-10-29T12:24:18 UTC" finished-at="2021-10-29T12:24:18 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.webapp.test.amazon.AmazonSearchTest -->
+      <class name="com.webapp.test.amazon.AmazonHompageTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.webapp.test.amazon.AmazonHompageTest@7a9273a8]" name="beforeMethod" is-config="true" duration-ms="3882" started-at="2021-10-29T12:24:00 UTC" finished-at="2021-10-29T12:24:04 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testAmazonHomepage()[pri:0, instance:com.webapp.test.amazon.AmazonHompageTest@7a9273a8]" name="testAmazonHomepage" duration-ms="397" started-at="2021-10-29T12:24:04 UTC" finished-at="2021-10-29T12:24:05 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmazonHomepage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.webapp.test.amazon.AmazonHompageTest@7a9273a8]" name="afterMethod" is-config="true" duration-ms="183" started-at="2021-10-29T12:24:05 UTC" finished-at="2021-10-29T12:24:05 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.webapp.test.amazon.AmazonHompageTest@7a9273a8]" name="beforeMethod" is-config="true" duration-ms="2457" started-at="2021-10-29T12:24:05 UTC" finished-at="2021-10-29T12:24:07 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testHompageSource()[pri:0, instance:com.webapp.test.amazon.AmazonHompageTest@7a9273a8]" name="testHompageSource" duration-ms="326" started-at="2021-10-29T12:24:07 UTC" finished-at="2021-10-29T12:24:07 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHompageSource -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.webapp.test.amazon.AmazonHompageTest@7a9273a8]" name="afterMethod" is-config="true" duration-ms="160" started-at="2021-10-29T12:24:07 UTC" finished-at="2021-10-29T12:24:08 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.webapp.test.amazon.AmazonHompageTest -->
+    </test> <!-- Amazon Test -->
+    <test name="Facebook Test" duration-ms="3223" started-at="2021-10-29T12:24:18 UTC" finished-at="2021-10-29T12:24:21 UTC">
+      <class name="com.webapp.test.facebook.FacbookLoginTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.webapp.test.facebook.FacbookLoginTest@a74868d]" name="beforeMethod" is-config="true" duration-ms="1176" started-at="2021-10-29T12:24:18 UTC" finished-at="2021-10-29T12:24:19 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testFacebookHomePage()[pri:0, instance:com.webapp.test.facebook.FacbookLoginTest@a74868d]" name="testFacebookHomePage" duration-ms="155" started-at="2021-10-29T12:24:19 UTC" finished-at="2021-10-29T12:24:19 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFacebookHomePage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.webapp.test.facebook.FacbookLoginTest@a74868d]" name="afterMethod" is-config="true" duration-ms="112" started-at="2021-10-29T12:24:19 UTC" finished-at="2021-10-29T12:24:19 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.webapp.test.facebook.FacbookLoginTest@a74868d]" name="beforeMethod" is-config="true" duration-ms="1313" started-at="2021-10-29T12:24:19 UTC" finished-at="2021-10-29T12:24:21 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testFacebookloginTest()[pri:0, instance:com.webapp.test.facebook.FacbookLoginTest@a74868d]" name="testFacebookloginTest" duration-ms="322" started-at="2021-10-29T12:24:21 UTC" finished-at="2021-10-29T12:24:21 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFacebookloginTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.webapp.test.facebook.FacbookLoginTest@a74868d]" name="afterMethod" is-config="true" duration-ms="141" started-at="2021-10-29T12:24:21 UTC" finished-at="2021-10-29T12:24:21 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.webapp.test.facebook.FacbookLoginTest -->
+    </test> <!-- Facebook Test -->
+    <test name="Group Test" duration-ms="16219" started-at="2021-10-29T12:24:21 UTC" finished-at="2021-10-29T12:24:37 UTC">
+      <class name="com.webapp.test.group.BrowserSpecificGroupTest">
+        <test-method status="PASS" signature="lauchChromeTest()[pri:0, instance:com.webapp.test.group.BrowserSpecificGroupTest@64485a47]" name="lauchChromeTest" duration-ms="2267" started-at="2021-10-29T12:24:21 UTC" finished-at="2021-10-29T12:24:23 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchChromeTest -->
+        <test-method status="PASS" signature="lauchFireFoxTest()[pri:0, instance:com.webapp.test.group.BrowserSpecificGroupTest@64485a47]" name="lauchFireFoxTest" duration-ms="4275" started-at="2021-10-29T12:24:23 UTC" finished-at="2021-10-29T12:24:28 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFireFoxTest -->
+        <test-method status="PASS" signature="testAmazonHomepage()[pri:0, instance:com.webapp.test.group.BrowserSpecificGroupTest@64485a47]" name="testAmazonHomepage" duration-ms="66" started-at="2021-10-29T12:24:28 UTC" depends-on-methods="com.webapp.test.group.BrowserSpecificGroupTest.lauchChromeTest" finished-at="2021-10-29T12:24:28 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmazonHomepage -->
+        <test-method status="PASS" signature="testFacebookHomePage()[pri:0, instance:com.webapp.test.group.BrowserSpecificGroupTest@64485a47]" name="testFacebookHomePage" duration-ms="3462" started-at="2021-10-29T12:24:28 UTC" depends-on-methods="com.webapp.test.group.BrowserSpecificGroupTest.lauchFireFoxTest" finished-at="2021-10-29T12:24:31 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFacebookHomePage -->
+        <test-method status="PASS" signature="testFacebookloginTest()[pri:1, instance:com.webapp.test.group.BrowserSpecificGroupTest@64485a47]" name="testFacebookloginTest" duration-ms="3806" started-at="2021-10-29T12:24:31 UTC" depends-on-methods="com.webapp.test.group.BrowserSpecificGroupTest.lauchFireFoxTest" finished-at="2021-10-29T12:24:35 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFacebookloginTest -->
+        <test-method status="PASS" signature="testHompageSource()[pri:1, instance:com.webapp.test.group.BrowserSpecificGroupTest@64485a47]" name="testHompageSource" duration-ms="6" started-at="2021-10-29T12:24:35 UTC" depends-on-methods="com.webapp.test.group.BrowserSpecificGroupTest.lauchChromeTest" finished-at="2021-10-29T12:24:35 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHompageSource -->
+        <test-method status="PASS" signature="testSearch1()[pri:2, instance:com.webapp.test.group.BrowserSpecificGroupTest@64485a47]" name="testSearch1" duration-ms="2324" started-at="2021-10-29T12:24:35 UTC" depends-on-methods="com.webapp.test.group.BrowserSpecificGroupTest.lauchChromeTest" finished-at="2021-10-29T12:24:37 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch1 -->
+      </class> <!-- com.webapp.test.group.BrowserSpecificGroupTest -->
+    </test> <!-- Group Test -->
+  </suite> <!-- EcomWebapp Testsuite -->
+</testng-results>
